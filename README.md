@@ -10,7 +10,7 @@ This project consists of the base development of a forms library to reactjs.
 {
   "values": {
     "field_name": "value"
-  }
+  },
   "errors": {
     "field_name": []
   }
