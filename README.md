@@ -16,3 +16,12 @@ This project consists of the base development of a forms library to reactjs.
   }
 }
 ```
+
+## Main component <Form />
+### Properties
+
+|Prop|Type|Description|Example|
+|----|:----:|-----------|-------|
+|id|string|Identification of the form. (Must be unique)| |
+|initialValues|Object|initial values of the form|  |
+|onSubmit| Function |Callback function to submit form||
