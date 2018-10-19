@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { FormContext } from '../../context';
+import { withForm } from '../../HOC/withForm';
 
-export default class TextInput extends Component {
-    constructor() {
-        super()
+class TextInput extends Component {
+    constructor(props) {
+        super(props)
     }
-
 
     render() {
         return (
-            <FormContext.Consumer>
-                {value => <p>{value.test}</p>}
-            </FormContext.Consumer>
+            <input type="text"/>
         )
     }
 }
+
+export default withForm(TextInput)
 
